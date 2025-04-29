@@ -1,4 +1,4 @@
-    print("Napiš 'konec' pro ukončení hry")
-    hrac = input("Tvoje volba: ").lower()
-    if hrac == "konec":
-        print("\nHra ukončena.")
+if hrac == pocitac:
+        print("Remíza!")
+    elif (hrac == "kámen" and pocitac == "nůžky") or \
+         (hrac == "nůžky" and pocitac == "papír") or \
